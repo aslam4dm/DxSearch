@@ -112,7 +112,7 @@ def main():
     extensions = (".txt", ".csv", ".config", ".log", ".json", ".sql", ".sqlite3", ".html", ".db", ".dump", ".dmp", ".pcap", ".php", ".js", ".py", ".jar")
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-p', '--path', help="path to root file (files)", default="/")
+    parser.add_argument('-p', '--path', help="path to root file (files)", default=".")
     parser.add_argument('-s', '--search', help="search Username/Name/Email/IP etc.", default=None)
     parser.add_argument('-fc', '--file_contains', help="the name of the files to be queried contain 'x'", default=None)
     parser.add_argument('-pc', '--path_contains', help="the name of the paths to be queried contain 'x'", default=None)
