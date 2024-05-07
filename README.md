@@ -5,7 +5,7 @@ Currently not compatible with Windows
 Note: 
 --file_contains (-fc) and --path_contains (-pc) default to ignoring the letter casing
 --search (-s) is in the code to as input for the `grep` command, therefore you can supply grepable input. Additionally, within the code, by default grep is performed with the ignore-case (-i) flag
---path (-p) defaults to the home directory '/'
+--path (-p) defaults to the current working directory '.'
 
 Usage:
 ### file contains single // searches all files that contain 'user' for 'ctfuser1'
